@@ -37,14 +37,15 @@
 	font-family: ubuntu, sans-serif;
 	font-weight: normal;
 	font-size: 100%;
-	color: yellow;
+	color: gray;
 	text-decoration: none;
 }
 .box_press a:hover {
-	color: rgba(96, 123, 100, 1);
+	color: black;
+
 }
 .box_press a:active {
-	border: 4px solid yellow;
+	border: 0px solid black;
 }
 .box_press ul {
 	margin-top: 100px;
@@ -52,10 +53,19 @@
 	text-align: center;
 }
 .box_press li {
-	border: 2px solid yellow;
+	border: 2px solid gray;
 	margin: 10px 30px 10px 0;
 	line-height: 50px;
 	display: block;
+	color: black;
+}
+.box_press li:hover {
+	border: 2px solid gray;
+	margin: 10px 30px 10px 0;
+	line-height: 50px;
+	display: block;
+	background-color: yellow;
+	color: black;
 }
 
 .menu_footer a {
